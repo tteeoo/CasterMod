@@ -9,7 +9,7 @@ namespace CasterMod
     {
         public override void NPCLoot(NPC npc)
         {
-            if (Main.rand.Next(10) == 0)
+            if (Main.rand.Next(80) == 0)
             {
                 if (npc.type == NPCID.Zombie)
                 {
