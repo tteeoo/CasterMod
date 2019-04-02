@@ -3,28 +3,29 @@ using Terraria.ModLoader;
 
 namespace CasterMod.Items.Weapons
 {
-	public class Vermilion : ModItem
+	public class BreadBlade : ModItem
 	{
 		public override void SetStaticDefaults()
 		{
-			DisplayName.SetDefault("Bread Blade");
-			Tooltip.SetDefault("Pain");
+			DisplayName.SetDefault("Vermilion");
+			Tooltip.SetDefault("Mathematical!");
 		}
 		public override void SetDefaults()
 		{
-			item.damage = 24;
+			item.damage = 18;
 			item.melee = true;
 			item.width = 40;
 			item.height = 40;
-			item.useTime = 20;
-			item.useAnimation = 20;
+			item.useTime = 14;
+			item.useAnimation = 14;
 			item.useStyle = 1;
-			item.knockBack = 5;
-			item.value = 10000;
+			item.knockBack = 3;
+			item.value = 50000;
 			item.rare = 2;
 			item.UseSound = SoundID.Item1;
 			item.autoReuse = true;
-		}
+            item.shoot = mod.ProjectileType<Projectiles.BreadBladeProjectile>();
+        }
 
 		//public override void AddRecipes()
 		//{
