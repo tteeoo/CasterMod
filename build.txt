@@ -1,0 +1,3 @@
+author = Teo
+version = 0.1
+displayName = Caster Mod
