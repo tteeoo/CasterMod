@@ -1,7 +1,7 @@
 using Terraria.ID;
 using Terraria.ModLoader;
 
-namespace CasterMod.Items
+namespace CasterMod.Items.Weapons
 {
 	public class Vermilion : ModItem
 	{
