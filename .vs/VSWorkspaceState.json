@@ -1,7 +1,11 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\Items",
+    "\\Items\\Materials",
+    "\\Items\\Projectiles",
+    "\\Items\\Weapons"
   ],
-  "SelectedNode": "\\build.txt",
+  "SelectedNode": "\\Items\\Weapons\\Banana.cs",
   "PreviewInSolutionExplorer": false
 }

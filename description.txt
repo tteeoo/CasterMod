@@ -1,1 +1,9 @@
-Caster Mod is a pretty cool mod, it does...this. Modify this file with a description of your mod.
+Caster Mod, by Teo
+
+This mod currently has:
+
+- 4 weapons
+
+- 1 material
+
+The Caster Mod is being actively added to, fixed and tested.
