@@ -16,6 +16,17 @@ namespace CasterMod
                     Item.NewItem((int)npc.position.X, (int)npc.position.Y, npc.width, npc.height, mod.ItemType("Vermilion"));
                 }
             }
+            if (Main.rand.Next(200) == 0)
+            {
+                if (npc.type == NPCID.Skeleton)
+                {
+                    Item.NewItem((int)npc.position.X, (int)npc.position.Y, npc.width, npc.height, mod.ItemType("OldFruit"));
+                }
+                if (npc.type == NPCID.AngryBones)
+                {
+                    Item.NewItem((int)npc.position.X, (int)npc.position.Y, npc.width, npc.height, mod.ItemType("OldFruit"));
+                }
+            }
         }
     }
 }

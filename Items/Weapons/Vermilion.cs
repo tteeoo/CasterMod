@@ -7,8 +7,8 @@ namespace CasterMod.Items.Weapons
 	{
 		public override void SetStaticDefaults()
 		{
-			DisplayName.SetDefault("Bread Blade");
-			Tooltip.SetDefault("Pain");
+			DisplayName.SetDefault("Vermilion");
+			Tooltip.SetDefault("Mathematical!");
 		}
 		public override void SetDefaults()
 		{
