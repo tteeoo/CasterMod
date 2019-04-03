@@ -1,4 +1,4 @@
 author = Teo
-version = 0.2.6
+version = 0.2.7
 displayName = Caster Mod
 homepage = https://terraria-caster-mo.fandom.com/wiki/Terraria_Caster_Mod_Wiki#Caster_Mod
