@@ -12,7 +12,7 @@ namespace CasterMod.Items.Weapons
         }
         public override void SetDefaults()
 		{
-			item.damage = 27;
+			item.damage = 32;
             item.mana = 8;
             item.melee = true;
 			item.width = 28;

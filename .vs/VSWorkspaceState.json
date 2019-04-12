@@ -4,8 +4,9 @@
     "\\Items",
     "\\Items\\Materials",
     "\\Items\\Projectiles",
-    "\\Items\\Weapons"
+    "\\Items\\Weapons",
+    "\\NPCs"
   ],
-  "SelectedNode": "\\Items\\Weapons\\Banana.cs",
+  "SelectedNode": "\\Items\\Weapons\\BreadBlade.cs",
   "PreviewInSolutionExplorer": false
 }

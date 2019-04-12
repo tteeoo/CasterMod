@@ -18,6 +18,17 @@ namespace CasterMod
             }
             if (Main.rand.Next(200) == 0)
             {
+                if (npc.type == NPCID.Lihzahrd)
+                {
+                    Item.NewItem((int)npc.position.X, (int)npc.position.Y, npc.width, npc.height, mod.ItemType("ForgottenSword"));
+                }
+                if (npc.type == NPCID.FlyingSnake)
+                {
+                    Item.NewItem((int)npc.position.X, (int)npc.position.Y, npc.width, npc.height, mod.ItemType("ForgottenSword"));
+                }
+            }
+            if (Main.rand.Next(200) == 0)
+            {
                 if (npc.type == NPCID.Skeleton)
                 {
                     Item.NewItem((int)npc.position.X, (int)npc.position.Y, npc.width, npc.height, mod.ItemType("OldFruit"));

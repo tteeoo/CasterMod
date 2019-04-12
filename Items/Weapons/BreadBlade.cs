@@ -12,7 +12,7 @@ namespace CasterMod.Items.Weapons
         }
         public override void SetDefaults()
 		{
-			item.damage = 19;
+			item.damage = 12;
 			item.melee = true;
 			item.width = 40;
 			item.height = 40;
@@ -27,6 +27,7 @@ namespace CasterMod.Items.Weapons
             item.shoot = mod.ProjectileType<Projectiles.BreadBladeProjectile>();
 
         }
+
 
 
 		//public override void AddRecipes()

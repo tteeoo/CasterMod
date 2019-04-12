@@ -20,6 +20,9 @@ namespace CasterMod.Items.Projectiles
             projectile.ignoreWater = true;
             
         }
+        public virtual void OnTileCollide(Vector2 oldVelocity) {
+			Main.PlaySound(SoundID.Item7, projectile.position);
+		}
         public override void AI()
         {
 
