@@ -1,8 +1,10 @@
 Caster Mod, by Teo
 
-This mod currently has:
+This mod currently adds:
 
-- 4 weapons
+(May not be 100% accurate always)
+
+- 6 weapons
 
 - 1 material
 
