@@ -1,2 +1,2 @@
 # CasterMod
-Terraria mod
+Terraria mod which I stopped developing.
